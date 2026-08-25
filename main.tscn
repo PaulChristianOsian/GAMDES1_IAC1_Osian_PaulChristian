@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://clmtkjvmi8fyu"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_hgc2q"]
+
+[node name="Main" type="Node2D" unique_id=937639083]
+
+[node name="Player" type="Sprite2D" parent="." unique_id=1945235527]
+texture = SubResource("ViewportTexture_hgc2q")
+
+[node name="Camera" type="Camera2D" parent="Player" unique_id=835438812]
+
+[node name="ScoreLabel" type="Label" parent="." unique_id=1391484819]
+offset_left = -17.0
+offset_top = 26.0
+offset_right = 31.0
+offset_bottom = 49.0
+text = "LABEL"
